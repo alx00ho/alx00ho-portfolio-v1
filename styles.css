@@ -1,5 +1,27 @@
 body {
-    background-color: #C8B19D;
+    background-color: #EFF2E4;
+}
+
+header {
+    width: 100%;
+    height: 40px;
+    background-color: #d2c3b6;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: 0;
+}
+
+nav {
+    width: 50%;
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+
+main {
+    padding-top: 40px;
 }
 
 .main-photo {

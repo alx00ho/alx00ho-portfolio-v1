@@ -1,29 +1,96 @@
 body {
     background-color: #EFF2E4;
+    color: rgb(146, 109, 109);
+    margin: 0;
+    font-family: king;
+}
+
+@font-face {
+    font-family: king;
+    src: url("/fonts/KIN668.TTF");
 }
 
 header {
     width: 100%;
-    height: 40px;
+    height: 80px;
     background-color: #d2c3b6;
     display: flex;
     justify-content: space-between;
     align-items: center;
     position: fixed;
     top: 0;
+    padding: 0 20px;
 }
 
 nav {
-    width: 50%;
+    width: 40%;
     display: flex;
     justify-content: space-evenly;
-    
+    color: #EFF2E4;
+}
+
+nav > ul {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    padding-inline-start: 0;
+    margin-block: 0;
+    height: 100%;
+}
+
+nav > ul > li {
+    color: white;
+    margin: 0 0.2rem;
+    padding: 0.2rem;
+    display: block;
+}
+
+nav > ul > li:hover {
+    background-color: #EFF2E4;
+    color: #1b1b32;
+    cursor: pointer;
+}
+
+li > a {
+    color: inherit;
+    text-decoration: none;
 }
 
 main {
-    padding-top: 40px;
+    padding: 100px 20px 0 20px;
 }
 
 .main-photo {
     max-width: 35%;
+}
+
+.main-page {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.main-page-info {
+    display: block;
+}
+
+.small-info {
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    color: white;
+}
+
+footer {
+    padding: 20px;
+    text-align: center;
+    background-color: #d2c3b6;
+    color:#EFF2E4;
+}
+
+.about-me-paragraph {
+    padding: 5% 10%;
 }

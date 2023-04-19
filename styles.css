@@ -58,7 +58,7 @@ li > a {
 }
 
 main {
-    padding: 100px 20px 0 20px;
+    padding: 100px 40px 0 40px;
 }
 
 .main-photo {
@@ -73,6 +73,10 @@ main {
 
 .main-page-info {
     display: block;
+    border: gray;
+    border-style: solid;
+    padding: 20px;
+    border-radius: 20px;
 }
 
 .small-info {
@@ -93,8 +97,4 @@ footer {
 
 .about-me-paragraph {
     padding: 5% 10%;
-}
-
-.resume {
-    padding: 0 40px 40px 40px;
 }

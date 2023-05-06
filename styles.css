@@ -1,8 +1,10 @@
-body {
-    background-color: #EFF2E4;
-    color: rgb(146, 109, 109);
-    margin: 0;
-    font-family: king;
+:root {
+    --background-color: #EFF2E4;
+    --header-color: #d2c3b6;
+    --header-text-color: white;
+    --text-color: rgb(146, 109, 109);
+    --hover-color: #1b1b32;
+    --border-color: rgba(99, 91, 91, 0.33);
 }
 
 @font-face {
@@ -10,10 +12,17 @@ body {
     src: url("/fonts/KIN668.TTF");
 }
 
+body {
+    background-color: var(--background-color);
+    color: var(--text-color);
+    margin: 0;
+    font-family: king;
+}
+
 header {
     width: 100%;
-    height: 65px;
-    background-color: #d2c3b6;
+    height: 4.5rem;
+    background-color: var(--header-color);
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -26,7 +35,7 @@ nav {
     width: 40%;
     display: flex;
     justify-content: space-evenly;
-    color: #EFF2E4;
+    color: var(--background-color);
 }
 
 nav > ul {
@@ -40,17 +49,17 @@ nav > ul {
 }
 
 nav > ul > li {
-    color: white;
+    color: var(--header-text-color);
     margin: 0 0.2rem;
-    padding: 0.2rem 0.4rem;
+    padding: 0.3rem 0.4rem;
     display: block;
     border-radius: 5px;
     font-size: 20px;
 }
 
 nav > ul > li:hover {
-    background-color: #EFF2E4;
-    color: #1b1b32;
+    background-color: var(--background-color);
+    color: var(--hover-color);
     cursor: pointer;
 }
 
@@ -77,7 +86,7 @@ main {
 
 .main-page-info {
     display: block;
-    border: gray;
+    border: var(--border-color);
     border-style: solid;
     padding: 20px;
     border-radius: 20px;
@@ -89,18 +98,19 @@ main {
 }
 
 header h1 {
-    color: white;
+    color: var(--header-text-color);
 }
 
 footer {
     padding: 20px;
     text-align: center;
-    background-color: #d2c3b6;
-    color:#EFF2E4;
+    background-color: var(--header-color);
+    color: var(--background-color);
 }
 
 .about-me-paragraph {
     padding: 5% 10%;
+    line-height: 2rem;
 }
 
 .resume h2 {
@@ -109,4 +119,10 @@ footer {
 
 .resume ul {
     padding: 0px 0px 30px 0px;
+}
+
+.resume li {
+    padding: 0.5rem 2rem;
+    list-style: none;
+    font-weight: thin;
 }

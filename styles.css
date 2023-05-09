@@ -113,12 +113,21 @@ footer {
     line-height: 2rem;
 }
 
+.resume-item {
+    border-bottom: 3px solid var(--text-color);
+    margin-top: 10px;
+}
+
 .resume h2 {
     text-decoration: underline;
 }
 
 .resume ul {
     padding: 0px 0px 30px 0px;
+}
+
+.resume-item:last-of-type {
+    border: none;
 }
 
 .resume li {

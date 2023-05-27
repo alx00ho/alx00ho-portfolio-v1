@@ -3,7 +3,7 @@
     <head>
         <meta charset="UTF-8"/>
         <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-        <link href="styles.css" rel="stylesheet"/>
+        <link rel="stylesheet" href="styles.css"/>
         <title>Alexander Ho's Personal Website</title>
     </head>
     <body>
@@ -22,23 +22,30 @@
         </header>
         
         <main>
-            <section>
+            <section id="upcoming-projects" class="projects upcoming">
                 <h1>Upcoming Projects</h1>
                 <ul>
                     <li>Lobster and Tofu Website</li>
                     <li>Musical Soundtracks</li>
-                    <li>Vietnamese Translation</li>
+                    <li>Vietnamese Translator</li>
                     <li>Headline Generator for Rocket League Players</li>
                     <li>Cooking Recipes Generator</li>
                     <li>Map of Places I've Traveled To</li>
-                    <li>Java Snake Project</li>
+                    <li>100 "_____" Generator</li>
                 </ul>
             </section>
-            <section id="3d-projects">
-                <video width="270" height="360" autoplay controls loop muted>
-                    <source src="./videos/Donut Animation.MP4" type="video/MP4"/>
-                </video>
-            </section>
+            <section id="past-projects" class="projects past">
+                <h1>Past Projects</h1>
+                <section id="3d-projects">
+                    <h2>3D Donut Render on Blender</h2>
+                    <p>My version of a 3D Donut from the
+                        <a target="_blank" href="https://www.youtube.com/watch?v=nIoXOplUvAw&list=PLjEaoINr3zgFX8ZsChQVQsuDSjEqdWMAD&index=1">
+                        Blender Guru's tutorial</a> on Youtube</p>
+                    <video width="270" height="360" autoplay controls loop muted>
+                        <source src="./videos/Donut Animation.MP4" type="video/MP4"/>
+                    </video>
+                </section>
+        </section>
         </main>
 
         <footer>

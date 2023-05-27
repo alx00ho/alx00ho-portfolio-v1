@@ -3,6 +3,7 @@ body {
     color: rgb(146, 109, 109);
     margin: 0;
     font-family: king;
+    overflow: hidden;
 }
 
 @font-face {
@@ -97,6 +98,10 @@ footer {
     text-align: center;
     background-color: #d2c3b6;
     color:#EFF2E4;
+    position: absolute;
+    bottom: 0;
+    display: block;
+    width: 100vw;
 }
 
 .about-me-paragraph {

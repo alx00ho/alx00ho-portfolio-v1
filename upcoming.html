@@ -1,56 +1,67 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8"/>
-        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-        <link rel="stylesheet" href="styles.css"/>
-        <title>Alexander Ho's Personal Website</title>
-    </head>
-    <body>
-        <header>
-            <h1>Alexander Ho's Personal Portfolio</h1>
-            <nav>
-                <ul>
-                    <li><a href="/">Home</a></li>
-                    <li><a href="/about-me.html">About Me</a></li>
-                    <li><a href="/resume.html">Resume</a></li>
-                    <li><a href="/books.html">Books</a></li>
-                    <li><a href="/pets.html">Pets</a></li>
-                    <li><a href="/upcoming.html">Projects</a></li>
-                </ul>
-            </nav>
-        </header>
-        
-        <main>
-            <section id="upcoming-projects" class="projects upcoming">
-                <h1>Upcoming Projects</h1>
-                <ul>
-                    <li>Lobster and Tofu Website</li>
-                    <li>Musical Soundtracks</li>
-                    <li>Vietnamese Translator</li>
-                    <li>Headline Generator for Rocket League Players</li>
-                    <li>Cooking Recipes Generator</li>
-                    <li>Map of Places I've Traveled To</li>
-                    <li>100 "_____" Generator</li>
-                </ul>
-            </section>
-            <section id="past-projects" class="projects past">
-                <h1>Past Projects</h1>
-                <section id="3d-projects">
-                    <h2>3D Donut Render on Blender</h2>
-                    <p>My version of a 3D Donut from the
-                        <a target="_blank" href="https://www.youtube.com/watch?v=nIoXOplUvAw&list=PLjEaoINr3zgFX8ZsChQVQsuDSjEqdWMAD&index=1">
-                        Blender Guru's tutorial</a> on Youtube</p>
-                    <video width="270" height="360" autoplay controls loop muted>
-                        <source src="./videos/Donut Animation.MP4" type="video/MP4"/>
-                    </video>
-                </section>
-        </section>
-        </main>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Alexander Ho's Personal Website</title>
+  </head>
+  <body>
+    <header>
+      <h1>Alexander Ho's Personal Portfolio</h1>
+      <nav>
+        <ul>
+          <li><a href="/">Home</a></li>
+          <li><a href="/about-me.html">About Me</a></li>
+          <li><a href="/resume.html">Resume</a></li>
+          <li><a href="/books.html">Books</a></li>
+          <li><a href="/pets.html">Pets</a></li>
+          <li><a href="/upcoming.html">Projects</a></li>
+        </ul>
+      </nav>
+    </header>
 
-        <footer>
-            <h2>Contact Me:</h2>
-            <p>Email: alx00ho@outlook.com</p>
-        </footer>
-    </body>
+    <main>
+      <section id="projects-info">
+        <div class="container">
+          <section id="projects-upcoming" class="projects upcoming">
+            <h1>Upcoming Projects</h1>
+            <ul>
+              <li>Lobster and Tofu Website</li>
+              <li>Musical Soundtracks</li>
+              <li>Vietnamese Translator</li>
+              <li>Headline Generator for Rocket League Players</li>
+              <li>Cooking Recipes Generator</li>
+              <li>Map of Places I've Traveled To</li>
+              <li>100 "_____" Generator</li>
+            </ul>
+          </section>
+          <section id="projects-past" class="projects past">
+            <h1>Past Projects</h1>
+            <section id="3d-projects">
+              <h2>3D Donut Render on Blender</h2>
+              <p>
+                My version of a 3D Donut from the
+                <a
+                  target="_blank"
+                  href="https://www.youtube.com/watch?v=nIoXOplUvAw&list=PLjEaoINr3zgFX8ZsChQVQsuDSjEqdWMAD&index=1"
+                >
+                  Blender Guru's tutorial
+                </a>
+                on Youtube
+              </p>
+              <video width="270" height="360" autoplay controls loop muted>
+                <source src="./videos/Donut Animation.MP4" type="video/MP4" />
+              </video>
+            </section>
+          </section>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <h2>Contact Me:</h2>
+      <p>Email: alx00ho@outlook.com</p>
+    </footer>
+  </body>
 </html>

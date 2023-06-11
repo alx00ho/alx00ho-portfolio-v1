@@ -24,12 +24,14 @@ body {
   color: var(--text-color);
   font-family: king;
   overflow-x: hidden;
+  height: 100vh;
 }
 
 main {
   padding: 100px 40px 120px 40px;
   margin: auto;
   width: 80%;
+  height: 100%;
 }
 
 h1,

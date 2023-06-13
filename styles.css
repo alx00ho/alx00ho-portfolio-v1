@@ -181,8 +181,13 @@ footer h2 {
 
 /* About Me */
 
-.about-me-paragraph {
+.about-me-paragraphs {
   line-height: 2rem;
+  padding: 1rem;
+}
+
+.about-me-paragraphs p {
+  padding: 1rem;
 }
 
 .about-me-photo {

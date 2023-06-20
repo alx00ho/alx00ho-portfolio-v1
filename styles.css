@@ -5,6 +5,7 @@
   --text-color: rgb(146, 109, 109);
   --hover-color: #1b1b32;
   --border-color: rgba(99, 91, 91, 0.33);
+  --border-color2: rgba(146, 109, 109, 0.3);
 }
 
 @font-face {
@@ -146,6 +147,7 @@ footer {
   bottom: 0;
   display: block;
   width: 100vw;
+  border-top: 2px solid var(--border-color2);
 }
 
 footer h2 {

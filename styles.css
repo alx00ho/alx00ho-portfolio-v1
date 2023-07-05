@@ -267,6 +267,10 @@ footer h2 {
   text-decoration: underline;
 }
 
+.project-item {
+  margin-bottom: 2rem;
+}
+
 /* Utilities */
 
 .btn {

@@ -245,6 +245,12 @@ footer h2 {
   font-weight: thin;
 }
 
+#download-resume {
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+
 /* Projects */
 #projects-info .container {
   display: grid;
@@ -258,4 +264,14 @@ footer h2 {
 #projects-info h2 {
   font-size: 1rem;
   text-decoration: underline;
+}
+
+/* Utilities */
+
+.btn {
+  margin: auto;
+  padding: 10px 20px;
+  font-size: 1.5rem;
+  background-color: var(--header-color);
+  color: var(--header-text-color);
 }
